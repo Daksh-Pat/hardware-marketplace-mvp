@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="hw_app.client/hw_app.client.esproj">
+    <Build />
+    <Deploy />
+  </Project>
+  <Project Path="HW_App.Server/HW_App.Server.csproj" />
+</Solution>

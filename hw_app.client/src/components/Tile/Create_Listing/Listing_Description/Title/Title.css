@@ -1,0 +1,16 @@
+.title-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title {
+    padding: 5px;
+    resize: none;
+    border: none;
+}
+
+.title::placeholder {
+    color: #ffffff;
+    opacity: 1; 
+}

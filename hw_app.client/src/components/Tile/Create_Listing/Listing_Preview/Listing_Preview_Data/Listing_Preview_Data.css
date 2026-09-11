@@ -1,0 +1,28 @@
+.listing-preview-data {
+    width: 35vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 10px;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.preview-title{
+    width: 100%;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.preview-transaction{
+    width: 100%;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}
+
+.preview-description {
+    width: 100%;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+}

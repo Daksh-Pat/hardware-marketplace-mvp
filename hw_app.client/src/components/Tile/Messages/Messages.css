@@ -1,0 +1,6 @@
+.messages{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 85vw;
+}

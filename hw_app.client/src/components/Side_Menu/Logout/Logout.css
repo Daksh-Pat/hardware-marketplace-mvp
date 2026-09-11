@@ -1,0 +1,22 @@
+.logout-btn-ctn {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logout-btn {
+    font-size: 12px;
+    padding: 8px;
+    border: none;
+    width: 100%;
+    background-color: black;
+}
+
+.logout-btn:hover {
+    background-color: #0ea5e9;
+}
+
+.logout-btn:active {
+    background-color: #38bdf8;
+}

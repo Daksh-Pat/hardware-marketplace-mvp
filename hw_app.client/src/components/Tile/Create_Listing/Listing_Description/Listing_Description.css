@@ -1,0 +1,20 @@
+.listing-description{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 90vh;
+    width: 40vw;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.submit-btn {
+    background-color: #0ea5e9;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+}
+
+.submit-btn:active {
+    background-color: #38bdf8;
+}

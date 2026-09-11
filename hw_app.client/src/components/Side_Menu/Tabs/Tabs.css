@@ -1,0 +1,8 @@
+.tabs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    gap: 1px;
+    align-content: center;
+    overflow-x: clip;
+}

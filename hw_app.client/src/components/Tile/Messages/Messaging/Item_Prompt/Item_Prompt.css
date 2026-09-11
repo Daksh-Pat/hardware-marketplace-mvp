@@ -1,0 +1,7 @@
+.item-prompt{
+    display: flex;
+    flex-direction: row;
+    min-height: 20vh;
+    width: 70vw;
+    justify-content: space-evenly;
+}

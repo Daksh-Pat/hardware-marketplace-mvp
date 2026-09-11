@@ -1,0 +1,41 @@
+.item {
+    background-color: #141416;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 15vw;
+    height: 40vh;
+    padding: 10px;
+}
+
+.image {
+    height: 20vh;
+    width: 15vw;
+    overflow: auto;
+    scrollbar-width: none;
+    object-fit: cover;
+}
+
+.metadata {
+    display: flex;
+    flex-direction: column;
+    width: 15vw;
+    height: 20vh;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.list-btn {
+    display: flex;
+    font-size: 12px;
+    padding: 6px;
+    border: none;
+    background-color: #0ea5e9;
+    width: 100%;
+    justify-content: center;
+}
+
+.list-btn:active{
+    background-color: #38bdf8;
+}

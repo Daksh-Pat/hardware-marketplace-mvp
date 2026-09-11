@@ -1,0 +1,23 @@
+.textbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.text-bar {
+    background-color: #141416;
+    font-size: 15px;
+    padding: 8px;
+    width: 95%;
+}
+
+.send {
+    background-color: #0ea5e9;
+    font-size: 15px;
+    padding: 8px;
+    border: none;
+}
+
+.send:hover{
+    background-color: #38bdf8;
+}

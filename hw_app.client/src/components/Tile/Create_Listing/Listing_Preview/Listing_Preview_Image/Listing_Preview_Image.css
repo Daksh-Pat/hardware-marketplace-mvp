@@ -1,0 +1,12 @@
+.listing-preview-image {
+    width: 35vw;
+    height: 40vh;
+    border: solid;
+}
+
+.image-file {
+    object-fit: cover;
+    display: block;
+    width: 100%;
+    height: 100%;
+}

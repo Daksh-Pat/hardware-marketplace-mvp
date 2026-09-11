@@ -1,0 +1,16 @@
+.prompt-data{
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    padding: 5px;
+}
+
+.prompt-item-description {
+    color: aliceblue;
+    font-size: 12px;
+    min-width: 0;
+    overflow-wrap: break-word;
+    white-space: normal;
+    overflow-y: auto;
+    scrollbar-width: none;
+}

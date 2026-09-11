@@ -1,0 +1,33 @@
+.trade-option{
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.trade-or-sell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cancel{
+    display: flex;
+    flex-direction: row;
+}
+
+.cancel-btn {
+    display: flex;
+    font-size: 12px;
+    padding: 8px;
+    border: none;
+    background-color: red;
+    justify-content: center;
+    width: 100%;
+}
+
+.cancel-btn:active{
+    background-color: darkred;
+}

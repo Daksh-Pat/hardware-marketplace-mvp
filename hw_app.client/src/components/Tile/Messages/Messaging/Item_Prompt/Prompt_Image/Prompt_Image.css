@@ -1,0 +1,10 @@
+.prompt-image {
+    display: flex;
+    flex-direction: column;
+    min-width: 20vw;
+    width: 15vw;
+    height: 20vh;
+    overflow: auto;
+    object-fit: cover;
+    scrollbar-width: none;
+}

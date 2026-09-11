@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.VisualStudio.JavaScript.Sdk/1.0.5171056">
+  <PropertyGroup>
+    <StartupCommand>npm run dev</StartupCommand>
+    <JavaScriptTestRoot>src\</JavaScriptTestRoot>
+    <JavaScriptTestFramework>Vitest</JavaScriptTestFramework>
+    <!-- Allows the build (or compile) script located on package.json to run on Build -->
+    <ShouldRunBuildScript>false</ShouldRunBuildScript>
+    <!-- Folder where production build objects will be placed -->
+    <BuildOutputFolder>$(MSBuildProjectDirectory)\dist</BuildOutputFolder>
+    <UserSecretsId>fa5dc1e3-d0cc-4d7a-b502-006f46e2fdb6</UserSecretsId>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="src\components\Account\Email\" />
+    <Folder Include="src\components\Account\Password\" />
+    <Folder Include="src\components\Account\Username\" />
+    <Folder Include="src\components\Side_Menu\About_Us\Data_Privacy\" />
+    <Folder Include="src\components\Side_Menu\About_Us\FAQ\" />
+    <Folder Include="src\components\Side_Menu\About_Us\Blog\" />
+    <Folder Include="src\components\Side_Menu\About_Us\TOS\" />
+    <Folder Include="src\components\Side_Menu\Account_Buttons\Sign_Buttons\Sign_Up\" />
+    <Folder Include="src\components\Side_Menu\Account_Buttons\Sign_Buttons\Sign_In\" />
+    <Folder Include="src\components\Side_Menu\Logo\" />
+    <Folder Include="src\components\Side_Menu\Logout\" />
+    <Folder Include="src\components\Side_Menu\Tabs\Browse_Listings\" />
+    <Folder Include="src\components\Side_Menu\Tabs\Create_Listing\" />
+    <Folder Include="src\components\Side_Menu\Tabs\My_Messages\" />
+    <Folder Include="src\components\Side_Menu\Tabs\My_Listings\" />
+    <Folder Include="src\components\Tile\Create_Listing\Listing_Description\Image_Upload\" />
+    <Folder Include="src\components\Tile\Create_Listing\Listing_Description\Title\" />
+    <Folder Include="src\components\Tile\Create_Listing\Listing_Preview\Listing_Preview_Image\" />
+    <Folder Include="src\components\Tile\Create_Listing\Listing_Preview\Listing_Preview_Data\" />
+    <Folder Include="src\components\Tile\Messages\Messaging\Chat_History\Chat_Message\" />
+    <Folder Include="src\components\Tile\Messages\Messaging\Item_Prompt\Prompt_Data\" />
+    <Folder Include="src\components\Tile\Messages\Messaging\Item_Prompt\Prompt_Image\" />
+    <Folder Include="src\components\Tile\Messages\Messaging\Textbox\" />
+    <Folder Include="src\services\Chatrooms\" />
+    <Folder Include="src\services\Messaging\" />
+    <Folder Include="src\services\Authentication\" />
+  </ItemGroup>
+</Project>

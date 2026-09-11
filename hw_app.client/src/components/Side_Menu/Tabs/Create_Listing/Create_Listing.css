@@ -1,0 +1,15 @@
+.create-listing-btn {
+    font-size: 12px;
+    padding: 8px;
+    border: none;
+    width: 100%;
+    background-color: black;
+}
+
+.create-listing-btn:hover{
+    background-color: #0ea5e9;
+}
+
+.create-listing-btn:active{
+    background-color: #38bdf8;
+}

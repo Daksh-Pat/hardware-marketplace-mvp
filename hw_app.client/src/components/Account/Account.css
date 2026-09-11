@@ -1,0 +1,70 @@
+.account-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+    height: 90vh;
+    width: 80%;
+}
+
+.account-logo-button {
+    border: none;
+    height: 30vh;
+}
+
+.login-button {
+    background-color: #0ea5e9;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+}
+
+.login-button:active {
+    background-color: #38bdf8;
+}
+
+.register-button {
+    background-color: #0ea5e9;
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+}
+
+.register-button:active {
+    background-color: #38bdf8;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-toggle-buttons{
+    display:flex;
+    flex-direction: row;
+    gap: 8px;
+    align-content: center;
+}
+
+.login-btn {
+    background-color: #0ea5e9;
+    font-size: 12px;
+    padding: 6px;
+    border: none;
+}
+
+.register-btn {
+    background-color: #0ea5e9;
+    font-size: 12px;
+    padding: 6px;
+    border: none;
+}
+

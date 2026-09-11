@@ -1,0 +1,60 @@
+.listing{
+    border-color: white;
+}
+
+.listings {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    max-height: 85vh;
+    scrollbar-width: none;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 85vw;
+    padding: 10px;
+    gap: 10px;
+}
+
+.sort-select {
+    font-size: 12px;
+    padding: 4px;
+    background-color: #0ea5e9;
+    border: none;
+}
+
+.num-select {
+    font-size: 12px;
+    padding: 4px;
+    background-color: #0ea5e9;
+    border: none;
+}
+
+.refresh-btn {
+    font-size: 12px;
+    padding: 6px;
+    background-color: #0ea5e9;
+    border: none;
+}
+
+.refresh-btn:active{
+    background-color: #38bdf8;
+}
+
+.trading-item-for {
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    align-items: center;
+}
+
+.trade-for {
+    font-size: 12px;
+    padding: 4px;
+    border: none;
+    width: 10vw;
+}

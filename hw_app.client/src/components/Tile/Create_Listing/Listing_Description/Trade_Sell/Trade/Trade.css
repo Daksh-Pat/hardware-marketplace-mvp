@@ -1,0 +1,16 @@
+.trade{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trade-title {
+    padding: 5px;
+    resize: none;
+    border: none;
+}
+
+.trade-title::placeholder{
+    color: #ffffff;
+    opacity: 1; 
+}
