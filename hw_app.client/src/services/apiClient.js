@@ -1,4 +1,4 @@
-const BASE_URL = import.meta.env.VITE_API_URL || 'https://hw-app-g5aqbzewbjh9asc3.westus-01.azurewebsites.net';
+const BASE_URL = import.meta.env.VITE_API_URL;
 
 export const apiFetch = async (endpoint, options = {}) => {
     const token = localStorage.getItem('token');
