@@ -1,13 +1,14 @@
 import { HubConnectionBuilder } from '@microsoft/signalr';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL;
+const API_BASE_URL = import.meta.env.VITE_CHAT_URL;
 
 export const startChatHubConnection = (chatRoomId, onMessageReceived) => {
 
     // Builds connection to chathub with JWT token and automatic reconnect enabled
     const hubConnection = new HubConnectionBuilder()
         .withUrl(`${API_BASE_URL}/hubs/chat`, {
-            accessTokenFactory: () => localStorage.getItem('token') || ''
+            accessTokenFactory: () => localStorage.getItem('token') || '',
+            withCredentials: true
         })
         .withAutomaticReconnect()
         .build();

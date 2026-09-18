@@ -63,8 +63,9 @@ builder.Services.AddCors(options =>
         policy =>
         {
             policy.WithOrigins(allowedOrigins)
-                  .WithHeaders("Authorization", "Content-Type", "x-requested-with", "x-signalr-user-agent") // Allows only specified headers
+                  .AllowAnyHeader()
                   .WithMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")    // Allows GET, POST, DELETE, OPTIONS
+                  //.AllowAnyMethod()
                   .AllowCredentials(); // Allows SignalR WebSocket handshake credentials
         });
 });
