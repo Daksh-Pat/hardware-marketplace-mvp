@@ -7,7 +7,7 @@ A full-stack, real-time marketplace application designed for trading PC componen
 ## Key Features
 
 * **User Authentication:** Secure server-side credential hashing with JWT issuance for stateless session validation.
-* **Listing Management:** Full CRUD operations for hardware components (GPUs, CPUs, RAM) with category filtering and relational data indexing.
+* **Listing Management:** Full CRUD operations for hardware components with category filtering and relational data indexing.
 * **Real-Time Messaging:** Bidirectional chat channels built with .NET SignalR hubs enabling real-time WebSocket communication between buyers and sellers.
 * **Database Optimization:** PostgreSQL schema using foreign key indexing to optimize query execution and maintain relational integrity.
 
@@ -28,9 +28,11 @@ A full-stack, real-time marketplace application designed for trading PC componen
 
 <img width="537" height="434" alt="marketplace_architecture" src="https://github.com/user-attachments/assets/7055bdb3-87a7-4ab9-aafe-4412a08e9306" />
 
-## Local Setup & Installation
+## Quick Start
 
 ### Prerequisites
-* .NET 8.0+ SDK
-* Node.js (v18+)
-* PostgreSQL instance running locally or via Docker
+* .NET 10 SDK, React.js, PostgreSQL
+
+### Running Locally
+1. **Backend:** Update `appsettings.json` connection string, run `dotnet ef database update`, then `dotnet run`.
+2. **Frontend:** Run `npm install` and `npm start`.
