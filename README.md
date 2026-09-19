@@ -26,6 +26,8 @@ A full-stack, real-time marketplace application designed for trading PC componen
 
 ## Architecture Overview
 
+<img width="537" height="434" alt="marketplace_architecture" src="https://github.com/user-attachments/assets/7055bdb3-87a7-4ab9-aafe-4412a08e9306" />
+
 ## Local Setup & Installation
 
 ### Prerequisites
