@@ -73,8 +73,9 @@ builder.Services.AddCors(options =>
 // After setup begin the actual web application building
 var app = builder.Build();
 
-// Enable HTTPS redirect and enable CORS policy
-app.UseHttpsRedirection();
+// Enable HTTPS redirect and enable CORS policy (Disable HTTPS redirect for now)
+//app.UseHttpsRedirection();
+app.UseRouting();
 app.UseCors(ReactCorsPolicy);
 
 // Allows to serve static frontend assets like images
