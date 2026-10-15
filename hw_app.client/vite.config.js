@@ -5,7 +5,6 @@ import fs from 'fs';
 import path from 'path';
 import child_process from 'child_process';
 import { env } from 'process';
-import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig(({ command }) => {
     let httpsConfig = false;
@@ -55,7 +54,7 @@ export default defineConfig(({ command }) => {
     }
 
     return {
-        plugins: [plugin(tailwindcss())],
+        plugins: [plugin()],
         resolve: {
             alias: {
                 '@': fileURLToPath(new URL('./src', import.meta.url))
