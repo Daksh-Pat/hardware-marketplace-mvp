@@ -1,5 +1,6 @@
 import './Item.css';
 import { createChatRoom } from '@/services/Chatrooms/chatroomCreate.js';
+import Button from '@mui/material/Button';
 
 function Item({ data }) {
 
@@ -26,9 +27,9 @@ function Item({ data }) {
           </div>
 
           <div className="list-btn-container">
-                <button className="list-btn" onClick={(e) => handleSubmit(e)}>
-                Message
-            </button>
+                <Button className="list-btn" variant="contained" color="primary" onClick={(e) => handleSubmit(e)}>
+                    Message
+                </Button>
           </div>
       </div>
     );
