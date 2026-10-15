@@ -29,8 +29,7 @@ function Item({ data }) {
                 <button className="list-btn" onClick={(e) => handleSubmit(e)}>
                 Message
             </button>
-          </div>
-
+            </div>
       </div>
     );
 }
