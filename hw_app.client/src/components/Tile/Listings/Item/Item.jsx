@@ -13,7 +13,7 @@ function Item({ data }) {
 
     // TODO (move to env file eventually)
     const API_BASE_URL = "https://localhost:7081";
-
+    
     return (
       <div className="item">
           <div className="image">
