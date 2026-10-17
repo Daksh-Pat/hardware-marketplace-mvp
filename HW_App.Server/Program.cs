@@ -53,16 +53,16 @@ builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
 
 
 const string ReactCorsPolicy = "_reactCorsPolicy";
-var allowedOrigins = builder.Configuration
-    .GetSection("Cors:AllowedOrigins")
-    .Get<string[]>() ?? Array.Empty<string>();
+
+var allowedOrigins = builder.Configuration["Cors:AllowedOrigins"]
+    ?? throw new InvalidOperationException("URL missing");
 
 builder.Services.AddCors(options =>
 {
     options.AddPolicy(name: ReactCorsPolicy,
         policy =>
         {
-            policy.WithOrigins("https://hardware-marketplace-mvp-client.onrender.com")
+            policy.WithOrigins(allowedOrigins)
                   .AllowAnyHeader()
                   .WithMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")    // Allows GET, POST, DELETE, OPTIONS
                   //.AllowAnyMethod()
