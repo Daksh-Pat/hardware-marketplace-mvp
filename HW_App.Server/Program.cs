@@ -62,7 +62,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy(name: ReactCorsPolicy,
         policy =>
         {
-            policy.WithOrigins(allowedOrigins)
+            policy.WithOrigins(https://hardware-marketplace-mvp-client.onrender.com)
                   .AllowAnyHeader()
                   .WithMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")    // Allows GET, POST, DELETE, OPTIONS
                   //.AllowAnyMethod()
