@@ -1,7 +1,16 @@
-.listings{
+.saved-list .listings {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    overflow-y: auto;
+    max-height: 85vh;
+    scrollbar-width: none;
 }
+
+    .saved-list .listings::-webkit-scrollbar {
+        display: none;
+    }
 
 .saved-listing {
     background-color: #141416;
@@ -31,7 +40,6 @@
     justify-content: center;
 }
 
-.delete-btn:active{
-    background-color: darkred;
-}
-
+    .delete-btn:active {
+        background-color: darkred;
+    }

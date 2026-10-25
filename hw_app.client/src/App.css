@@ -14,5 +14,12 @@ th, td {
     display: flex;
     flex-direction: row;
     gap: 5px;
+    width: 100%;
+    min-width: 0;
+    box-sizing: border-box;
     scrollbar-width: none;
 }
+
+    .overview > * {
+        min-width: 0;
+    }
