@@ -2,6 +2,7 @@
 
 A full-stack, real-time marketplace application designed for trading PC components. Built with a decoupled .NET REST API backend, PostgreSQL relational database, custom React frontend, and SignalR WebSockets for real-time messaging.
 
+**Live Application:** [https://hardware-marketplace-mvp-client.onrender.com/] 
 ---
 
 ## Key Features
@@ -28,11 +29,4 @@ A full-stack, real-time marketplace application designed for trading PC componen
 
 <img width="537" height="434" alt="marketplace_architecture" src="https://github.com/user-attachments/assets/7055bdb3-87a7-4ab9-aafe-4412a08e9306" />
 
-## Quick Start
 
-### Prerequisites
-* .NET 10 SDK, React.js, PostgreSQL
-
-### Running Locally
-1. **Backend:** Update `appsettings.json` connection string, run `dotnet ef database update`, then `dotnet run`.
-2. **Frontend:** Run `npm install` and `npm start`.
