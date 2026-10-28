@@ -2,7 +2,7 @@
 
 A full-stack, real-time marketplace application designed for trading PC components. Built with a decoupled .NET REST API backend, PostgreSQL relational database, custom React frontend, and SignalR WebSockets for real-time messaging.
 
-**Live Application:** [https://hardware-marketplace-mvp-client.onrender.com/] 
+*Live Application:* https://hardware-marketplace-mvp-client.onrender.com/
 ---
 
 ## Key Features
