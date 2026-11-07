@@ -5,7 +5,10 @@
     gap: 10px;
     height: 95vh;
     width: 10vw;
+    flex: 0 0 auto;
+    min-width: 0;
     padding: 10px;
     background-color: #141416;
+    box-sizing: border-box;
     scrollbar-width: none;
 }
